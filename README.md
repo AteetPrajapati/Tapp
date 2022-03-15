@@ -1,4 +1,4 @@
-# hello-world
+# Teachers App
 
 ## Project setup
 ```
