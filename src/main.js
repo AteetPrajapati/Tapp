@@ -80,8 +80,124 @@ const router = new Router({
     {
       path: "/Booking",
       name: "booking",
-      component: () => import("./components/BookingSuccess.vue"),
+      component: () => import("./components/Booking.vue"),
     },
+    {
+      path: "/BookingsMentee",
+      name: "bookingsmentee",
+      component: () => import("./components/BookingsMentee.vue"),
+    },
+    {
+      path: "/Bookings",
+      name: "bookings",
+      component: () => import("./components/Bookings.vue"),
+    },
+    {
+      path: "/ChangePassword",
+      name: "changepassword",
+      component: () => import("./components/ChangePassword.vue"),
+    },
+    {
+      path: "/ChatMentee",
+      name: "chatmentee",
+      component: () => import("./components/ChatMentee.vue"),
+    },
+    {
+      path: "/Chat",
+      name: "chat",
+      component: () => import("./components/Chat.vue"),
+    },
+    {
+      path: "/ChackOut",
+      name: "chackout",
+      component: () => import("./components/ChackOut.vue"),
+    },
+    {
+      path: "/Components",
+      name: "components",
+      component: () => import("./components/Components.vue"),
+    },
+    {
+      path: "/DashboardMentee",
+      name: "dashbordmentee",
+      component: () => import("./components/DashboardMentee.vue"),
+    },
+    {
+      path: "/Dashboard",
+      name: "dashboard",
+      component: () => import("./components/Dashboard.vue"),
+    },
+    {
+      path: "/EditBlog",
+      name: "editblog",
+      component: () => import("./components/EditBlog.vue"),
+    },
+    {
+      path: "/Favourites",
+      name: "favourites",
+      component: () => import("./components/Favourites.vue"),
+    },
+    {
+      path: "/ForgotPassword",
+      name: "ForgotPassword",
+      component: () => import("./components/ForgotPassword.vue"),
+    },
+    {
+      path: "/InvoiceView",
+      name: "invoiceview",
+      component: () => import("./components/InvoiceView.vue"),
+    },
+    {
+      path: "/Invoices",
+      name: "invoices",
+      component: () => import("./components/Invoices.vue"),
+    },
+    {
+      path: "/MapGrid",
+      name: "mapgrid",
+      component: () => import("./components/MapGrid.vue"),
+    },
+    {
+      path: "/MenteeList",
+      name: "menteelist",
+      component: () => import("./components/MenteeList.vue"),
+    },
+    {
+      path: "/MentorRegister",
+      name: "mentorregister",
+      component: () => import("./components/MentorRegister.vue"),
+    },
+    {
+      path: "/ProfileMentee",
+      name: "profilementee",
+      component: () => import("./components/ProfileMentee.vue"),
+    },
+    {
+      path: "/ProfileSettingsMentee",
+      name: "profilesettingsmentee",
+      component: () => import("./components/ProfileSettingsMentee.vue"),
+    },
+    {
+      path: "/ProfileSettings",
+      name: "profilesettings",
+      component: () => import("./components/ProfileSettings.vue"),
+    },
+    {
+      path: "/Reviews",
+      name: "reviews",
+      component: () => import("./components/Reviews.vue"),
+    },
+    {
+      path: "/ScheduleTimings",
+      name: "scheduletimings",
+      component: () => import("./components/ScheduleTimings.vue"),
+    },
+    {
+      path: "/VideoCall",
+      name: "videocall",
+      component: () => import("./components/VideoCall.vue"),
+    },
+
 
   ]
 });
