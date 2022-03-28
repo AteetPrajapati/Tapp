@@ -1,80 +1,43 @@
 <template>
-  <section class="banner-section">
+  <section class="section section-search">
     <div class="container">
-      <div class="banner-content text-center">
-        <div class="banner-heading">
-          <h2>ONLINE COURSES TO LEARN</h2>
-          <p>Own your future learning new skills online</p>
+      <div class="banner-wrapper m-auto text-center">
+        <div class="banner-header">
+          <h1>Search Teacher in <span>Mentoring</span> Appointment</h1>
+          <p>
+            Discover the best Mentors & institutions the city nearest to you.
+          </p>
         </div>
-        <div class="banner-forms">
-          <form class="banner-form" action="search.html">
-            <div class="input-group-form form-style form-br col-md-3 col-12">
-              <i class="fas fa-map-marker-alt text-warning"></i>
-              <input
-                class="input-style-form"
-                type="text"
-                placeholder="Search Location"
-                name="going"
-              />
+
+        <!-- Search -->
+        <div class="search-box">
+          <form action="search.html">
+            <div class="form-search">
+              <div class="form-inner">
+                <div class="form-group search-location">
+                  <i class="material-icons">my_location</i>
+                  <select class="form-control select">
+                    <option>Location</option>
+                    <option>Japan</option>
+                    <option>France</option>
+                  </select>
+                </div>
+                <div class="form-group search-info">
+                  <i class="material-icons">location_city</i>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search School, Online educational centers, etc"
+                  />
+                </div>
+                <button type="submit" class="btn btn-secondary search-btn mt-0">
+                  Search <i class="fas fa-long-arrow-alt-right"></i>
+                </button>
+              </div>
             </div>
-            <div class="input-group-form form-style col-md-6 col-12">
-              <input
-                class="input-style-form"
-                type="text"
-                placeholder="Search School, Online eductional centers, etc"
-                name="going"
-              />
-            </div>
-            <button class="btn button-form col-md-3 col-12" type="submit">
-              Search Now
-            </button>
           </form>
         </div>
-      </div>
-      <div class="banner-footer">
-        <div class="banner-details">
-          <div>
-            <div class="banner-card d-flex align-items-center">
-              <div class="banner-count">
-                <h2>10</h2>
-              </div>
-              <div class="banner-contents">
-                <h2>Global Locations</h2>
-                <a href="#"
-                  >See all Locations
-                  <i class="fas fa-caret-right right-nav-white"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="banner-card d-flex align-items-center">
-              <div class="banner-count">
-                <h2>54</h2>
-              </div>
-              <div class="banner-contents">
-                <h2>Programs Courses</h2>
-                <a href="#"
-                  >See all Courses
-                  <i class="fas fa-caret-right right-nav-white"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="banner-card d-flex align-items-center">
-              <div class="banner-count">
-                <h2>7M</h2>
-              </div>
-              <div class="banner-contents">
-                <h2>Students Globally</h2>
-                <a href="#"
-                  >Contact us <i class="fas fa-caret-right right-nav-white"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- /Search -->
       </div>
     </div>
   </section>

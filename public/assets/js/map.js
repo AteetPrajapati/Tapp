@@ -10,8 +10,8 @@ var bounds = new google.maps.LatLngBounds();
 var map, current = 0;
 var locations =[{
 	"id":01,
-	"doc_name":"Ruby Perrin",
-	"speciality":"Digital Marketer",
+	"doc_name":"Paul Richard",
+	"speciality":"UNIX",
 	"address":"Florida, USA",
 	"next_available":"Available on Fri, 22 Mar",
 	"amount":"$300 - $1000",
@@ -24,9 +24,9 @@ var locations =[{
 	}, {
 		
 	"id":02,
-	"doc_name":"Darren Elder",
+	"doc_name":"Donna Yancey",
 	"speciality":"Digital Marketer",
-	"address":"Newyork, USA",
+	"address":"UNIX, Calculus, Trigonometry",
 	"next_available":"Available on Fri, 23 Mar",
 	"amount":"$50 - $300",
 	"lat":53.469189,
@@ -37,7 +37,7 @@ var locations =[{
 	"image":'assets/img/user/user1.jpg'
 	}, {
 	"id":03,
-	"doc_name":"Deborah Angel",
+	"doc_name":"Deborah Daniel",
 	"speciality":"UNIX, Calculus, Trigonometry",
 	"address":"Georgia, USA",
 	"next_available":"Available on Fri, 24 Mar",
@@ -60,10 +60,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"4",
-	"image":'assets/img/user/user3.jpg'
+	"image":'assets/img/user/user4.jpg'
 	}, {
 	"id":05,
-	"doc_name":"Marvin Campbell",
+	"doc_name":"Katharine Berthold",
 	"speciality":"ASP.NET,Computer Gaming",
 	"address":"Michigan, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -73,10 +73,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"66",
-	"image":'assets/img/user/user4.jpg'
+	"image":'assets/img/user/user5.jpg'
 	}, {
 	"id":06,
-	"doc_name":"Katharine Berthold",
+	"doc_name":"Linda Tobin",
 	"speciality":"Digital Marketer",
 	"address":"Texas, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -86,10 +86,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"52",
-	"image":'assets/img/user/user5.jpg'
+	"image":'assets/img/user/user6.jpg'
 	}, {
 	"id":07,
-	"doc_name":"Linda Tobin",
+	"doc_name":"Elsie Gilley",
 	"speciality":"UNIX, Calculus, Trigonometry",
 	"address":"Kansas, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -99,10 +99,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"43",
-	"image":'assets/img/user/user6.jpg'
+	"image":'assets/img/user/user7.jpg'
 	}, {
 	"id":08,
-	"doc_name":"Paul Richard",
+	"doc_name":"John Gibbs",
 	"speciality":"Computer Programming",
 	"address":"California, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -112,7 +112,7 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"49",
-	"image":'assets/img/user/user7.jpg'
+	"image":'assets/img/user/user8.jpg'
 	}, {
 	"id":09,
 	"doc_name":"John Gibbs",
@@ -125,10 +125,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"112",
-	"image":'assets/img/user/user8.jpg'
+	"image":'assets/img/user/user9.jpg'
 	}, {
 	"id":10,
-	"doc_name":"Olga Barlow",
+	"doc_name":"Andriya Nick",
 	"speciality":"Periodontology and Oral",
 	"address":"Montana, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -138,10 +138,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"65",
-	"image":'assets/img/user/user9.jpg'
+	"image":'assets/img/user/user15.jpg'
 	}, {
 	"id":11,
-	"doc_name":"Julia Washington",
+	"doc_name":"JOlga Barlow",
 	"speciality":"Endocrinology",
 	"address":"Oklahoma, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -151,10 +151,10 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"5",
-	"image":'assets/img/user/user10.jpg'
+	"image":'assets/img/user/user9.jpg'
 	}, {
 	"id":12,
-	"doc_name":"Shaun Aponte",
+	"doc_name":"Julia Washington",
 	"speciality":"Diploma in (DLO)",
 	"address":"Indiana, USA",
 	"next_available":"Available on Fri, 25 Mar",
@@ -164,7 +164,7 @@ var locations =[{
 	"icons":"default",
 	"profile_link":"profile.html",
 	"total_review":"5",
-	"image":'assets/img/user/user11.jpg'
+	"image":'assets/img/user/user10.jpg'
 	}
 	];
 

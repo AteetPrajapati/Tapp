@@ -16,12 +16,13 @@
         </div>
         <div class="main-menu-wrapper">
           <div class="menu-header">
-            <a href="index.html" class="menu-logo">
+            <!-- <a href="index.html" class="menu-logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
             <a id="menu_close" class="menu-close" href="javascript:void(0);">
               <i class="fas fa-times"></i>
-            </a>
+            </a> -->
+            Teachers App
           </div>
           <ul class="main-nav">
             <li class="active">
@@ -52,7 +53,7 @@
               </ul>
             </li>
             <li class="has-submenu">
-              <a href="">Mentee <i class="fas fa-chevron-down"></i></a>
+              <a href="/search">Mentee <i class="fas fa-chevron-down"></i></a>
               <ul class="submenu">
                 <li class="has-submenu">
                   <a href="#">Mentors</a>
@@ -61,7 +62,9 @@
                     <li><a href="map-list.html">Map List</a></li>
                   </ul>
                 </li>
-                <li><a href="search.html">Search Mentor</a></li>
+                <li>
+                  <router-link to="/search"> Search Mentor</router-link>
+                </li>
                 <li><a href="profile.html">Mentor Profile</a></li>
                 <li><a href="bookings-mentee.html">Bookings</a></li>
                 <li><a href="checkout.html">Checkout</a></li>
@@ -80,7 +83,9 @@
               <ul class="submenu">
                 <li><a href="voice-call.html">Voice Call</a></li>
                 <li><a href="video-call.html">Video Call</a></li>
-                <li><a href="search.html">Search Mentors</a></li>
+                <li>
+                  <router-link to="/search"> Search Mentor</router-link>
+                </li>
                 <li><a href="components.html">Components</a></li>
                 <li class="has-submenu">
                   <a href="invoices.html">Invoices</a>
@@ -119,7 +124,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link header-login"
-              ><router-link to="register">Register</router-link>
+              ><router-link to="/register">Register</router-link>
             </a>
           </li>
         </ul>

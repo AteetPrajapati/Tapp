@@ -22,6 +22,16 @@ const router = new Router({
       name: "register",
       component: () => import("./components/register.vue"),
     },
+    {
+      path: "/search",
+      name: "register",
+      component: () => import("./components/SearchMentor.vue"),
+    },
+    {
+      path: "/voiceCall",
+      name: "voice-call",
+      component: () => import("./components/VoiceCall.vue"),
+    },
   ]
 });
 

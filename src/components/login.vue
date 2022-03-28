@@ -12,15 +12,23 @@
                   <h3>Login <span>Mentoring</span></h3>
                   <p class="text-muted">Access to our dashboard</p>
                 </div>
-                <form action="index.html">
+                <form action="index.html" @submit="handlesubmit">
                   <div class="form-group">
                     <label class="form-control-label">Email Address</label>
-                    <input type="email" class="form-control" />
+                    <input
+                      v-model="userdata.email"
+                      type="email"
+                      class="form-control"
+                    />
                   </div>
                   <div class="form-group">
                     <label class="form-control-label">Password</label>
                     <div class="pass-group">
-                      <input type="password" class="form-control pass-input" />
+                      <input
+                        v-model="userdata.password"
+                        type="password"
+                        class="form-control pass-input"
+                      />
                       <span class="fas fa-eye toggle-password"></span>
                     </div>
                   </div>
@@ -48,9 +56,27 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "App",
+  data() {
+    return {
+      userdata: {},
+    };
+  },
   components: {},
+  methods: {
+    handlesubmit(e) {
+      e.preventDefault();
+      console.log(this.userdata);
+      axios.post(
+        "https://teacherapp-api.herokuapp.com/login/?email=" +
+          this.userdata.email +
+          "&password=" +
+          this.userdata.password
+      );
+    },
+  },
 };
 </script>
 
